@@ -1,6 +1,7 @@
 #!/usr/bin/osascript
 # 20210713
 # 根据屏幕亮度自动设置外观模式，只支持Mojave以后的版本
+# 运行方式终端运行 osascript auto_swap_dark_mode.scpt
 
 # 查看当前外观是否为Dark模式,是则返回true
 on current_dark_mode()
